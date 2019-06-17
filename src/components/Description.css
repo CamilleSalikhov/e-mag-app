@@ -1,0 +1,12 @@
+.descContainer {
+    width:60%;
+    text-align:left;
+    height:30%;
+    margin:0
+}
+.notImportant {
+    opacity:0.7
+}
+.blackLink {
+    color:black
+}
