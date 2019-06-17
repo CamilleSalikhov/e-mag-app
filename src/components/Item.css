@@ -14,3 +14,24 @@
     width:20%;
     margin:0
 }
+
+
+@media (max-width: 400px){
+    .itemContainer{
+        flex-direction: column;
+        height: auto;
+        align-items: center
+        
+    }
+    
+    .itemContainer {
+        border-style: none;
+        margin-top: 60px
+    }
+
+
+    .imgContainer {
+        width: 90%
+    }
+  }
+  

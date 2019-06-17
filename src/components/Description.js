@@ -8,7 +8,7 @@ export default class Description extends Component {
         <div className='descContainer'>
             <div className='notImportant'>{`Код: ${code}`}</div>
             <h3><a className='blackLink' href="#">{title}</a></h3>
-            <p><strong>Могут понадобиться:</strong><span className='notImportant'>{assocProducts}</span></p>
+            <p className='additional'><strong>Могут понадобиться:</strong><span className='notImportant'>{assocProducts}</span></p>
         </div>
         )
     }

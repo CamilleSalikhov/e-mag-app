@@ -52,7 +52,7 @@ export default class Cart extends Component {
                     <option value='forMeter'>За метр</option>
                     <option value='forUnit'>За упаковку</option>
               </select>
-              <div>Продается упаковками: 1 {unit} = {unitRatioAlt} {unitAlt}</div>
+              <div className='unitInfo'>Продается упаковками: 1 {unit} = {unitRatioAlt} {unitAlt}</div>
 
             <div className='cartPanelContainer'>
                 <div className ='cartPanelContainer'>
